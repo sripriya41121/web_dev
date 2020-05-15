@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<script>
+
+function funct(){
+
+var usern=document.getElementById("user");
+var pass=document.getElementById("pass");
+
+
+if(usern.value.trim()=="")
+{
+    alert("Please fill all blanks!");  
+    usern.style.border="solid 2px tomato";
+    document.getElementById("lbl").style.visibility="visible"; 
+
+     return false;
+}
+else if(pass.value.trim()==""){
+    return false; 
+}
+else if(pass.value.trim().length<5){
+    alert("Hey enter 5 characters!");
+    pass.style.border="dotted 2px tomato";
+    return false;
+}
+else{
+    return true;
+
+}
+
+}
+
+
+
+
+
+</script>
+
+
+
+</head>
+<body>
+
+    <form  onsubmit=" return funct()" action="class1.html">
+        <!-- <form action=""> -->
+              <input id="user"  placeholder="Username" type="text" >
+              <label id="lbl" style="color: red; visibility: hidden;">Invalid</label>         
+              <br> <br>
+              <input id="pass" placeholder="Password" type="password" >
+              <br><br>
+           
+              <button type="submit">Submit</button>
+
+
+
+
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,834 @@
+INDEX.HTML
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>MI PHOTO GALLERY APPLICATION</title>
+
+    <style>
+
+    </style>
+<!--
+Flat Template
+http://www.templatemo.com/tm-491-flat
+-->
+    <!-- load stylesheets -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">    <!-- Google web font "Open Sans" -->    
+    <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">            <!-- Font awesome -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">                                  <!-- Bootstrap style -->
+    <link rel="stylesheet" href="css/hero-slider-style.css">                              <!-- Hero slider style (https://codyhouse.co/gem/hero-slider/) -->
+    <link rel="stylesheet" href="css/magnific-popup.css">                                 <!-- Magnific popup style (http://dimsemenov.com/plugins/magnific-popup/) -->
+    
+    <link rel="stylesheet" href="css/templatemo-style.css">                               <!-- Templatemo style -->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+    <body>
+                      
+        <!-- Content -->
+        <div class="cd-hero">
+
+            <!-- Navigation -->        
+            <div class="cd-slider-nav">
+                <nav class="navbar">
+
+                    <button class="navbar-toggler hidden-md-up" type="button" data-toggle="collapse" data-target="#tmNavbar">
+                        &#9776;
+                    </button>
+                    <div class="collapse navbar-toggleable-sm text-xs-center text-uppercase tm-navbar" id="tmNavbar">
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item active selected">
+                                <a class="nav-link" href="#0" data-no="1">HOME <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#0" data-no="2">EXPLORE</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#0" data-no="3">LOGIN</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#0" data-no="4">ABOUT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#0" data-no="5">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div> 
+
+            <ul class="cd-hero-slider">  <!-- autoplay -->
+                <li class="selected">
+                    <div class="cd-full-width">
+                        <div class="container-fluid js-tm-page-content tm-page-1" data-page-no="1">
+                            
+                            <div class="row">
+                            
+                                <div class="col-xs-12">
+                                    <i class="fa fa-4x fa-camera tm-icon"></i>
+                                    <h2 class="tm-site-name">CYBAGE SOFTWARE PHOTOGRAPHY</h2>
+                                    <div class="tm-bg-white-translucent text-xs-left tm-textbox tm-textbox-1-col">
+                                        <p class="tm-text"><strong>Gallery app</strong> is fast, light, modern and rich-feature app for organizing your photos.</p>
+                                        <p class="tm-text">The main focus of this app is to fastest photos access. 
+                                            It features a powerful mechanism to access and organize your album. 
+                                           </p>
+                                    </div>
+                                </div>
+
+                            </div>						
+							
+
+                        </div>
+                    </div> <!-- .cd-full-width -->
+                </li>
+
+                <li class="selected">
+                    <div class="cd-full-width">
+                        <div class="container-fluid js-tm-page-content tm-page-1" data-page-no="2">
+                            
+                            <div class="row">
+                            
+                                <div class="col-xs-12">
+                                    <i class="fa fa-4x fa-camera tm-icon"></i>
+                                    <h2 class="tm-site-name">CYBAGE SOFTWARE PHOTOGRAPHY</h2>
+                                    <div class="tm-bg-white-translucent text-xs-left tm-textbox tm-textbox-1-col">
+                                        <p class="tm-text">CLICK HERE TO VIST OUR EXPLORE HD IMAGES <a rel="nofollow" href="EXP.html" target="_blank"><strong>Experience Explorer</strong></a> </p>
+                                        <p>YOU WILL HAVE A CLOSE LOOK ON OUR WIDE RANGE OF GALLERY.</p>	
+                                    </div>
+                                </div>
+
+                            </div>						
+							
+
+                        </div>
+                    </div> <!-- .cd-full-width -->
+                </li>
+                <!-- Page 3 -->
+                <li>
+                    <div class="cd-full-width">
+
+                        <div class="container-fluid js-tm-page-content" data-page-no="3">
+                   
+                            <button id="btn-log" type="button" class="btn btn-primary" onclick="clickMe()">Login</button>			   
+                        </div>
+                                                
+                    </div> <!-- .cd-full-width -->
+
+                </li>
+
+                <li class="selected">
+                    <div class="cd-full-width">
+                        <div class="container-fluid js-tm-page-content tm-page-1" data-page-no="4">
+                            
+                            <div class="row">
+                            
+                                <div class="col-xs-12">
+                                    <i class="fa fa-4x fa-camera tm-icon"></i>
+                                    <h2 class="tm-site-name">CYBAGE SOFTWARE PHOTOGRAPHY</h2>
+                                    <div class="tm-bg-white-translucent text-xs-left tm-textbox tm-textbox-1-col">
+                                        <p class="tm-text"><strong>A beautiful and simple user interface</strong> </p>
+                                        <p>Photo Gallery is combination of the beautiful look of material design and the simplicity of Material style design philosophy, we made the app a great pleasure to look at and to use and Gallery Download Free, threestar.
+                                           HD Gallery you will be able to display images to fill your entire screen. You can use the pinch-to-zoom gesture or zoom buttons to get more detailed view.</p>	
+                                    </div>
+                                </div>
+
+                            </div>						
+							
+
+                        </div>
+                    </div> <!-- .cd-full-width -->
+                </li>
+                	 <li class="selected">
+                    <div class="cd-full-width">
+                        <div class="container-fluid js-tm-page-content tm-page-1" data-page-no="5">
+                            
+                            <div class="row">
+                            
+                                <div class="col-xs-12">
+                                    <i class="fa fa-4x fa-camera tm-icon"></i>
+                                    <h2 class="tm-site-name">CYBAGE SOFTWARE PHOTOGRAPHY</h2>
+                                    <div class="tm-bg-white-translucent text-xs-left tm-textbox tm-textbox-1-col">
+                                        <p class="tm-text"><strong>CONTACT DETAILS </strong></p>
+                                        <p><strong>Organisation: Cybage Software</strong></p>	
+                                        <p><strong>Write us at: support@cybage.com</strong></p>	
+                                    </div>
+                                </div>
+
+                            </div>						
+							
+
+                        </div>
+                    </div> <!-- .cd-full-width -->
+                </li>
+            </ul> <!-- .cd-hero-slider -->
+            
+            <footer class="tm-footer">
+            
+            
+                    
+                <p class="tm-copyright-text">CYBAGE PHOTOGRAPHY</p>
+
+            </footer>
+                    
+        </div> <!-- .cd-hero -->
+        
+
+        <!-- Preloader, https://ihatetomatoes.net/create-custom-preloading-screen/ -->
+        <div id="loader-wrapper">
+            
+            <div id="loader"></div>
+            <div class="loader-section section-left"></div>
+            <div class="loader-section section-right"></div>
+
+        </div>
+        
+        <!-- load JS files -->
+        <script src="js/jquery-1.11.3.min.js"></script>         <!-- jQuery (https://jquery.com/download/) -->
+        <script src="https://www.atlasestateagents.co.uk/javascript/tether.min.js"></script> <!-- Tether for Bootstrap (http://stackoverflow.com/questions/34567939/how-to-fix-the-error-error-bootstrap-tooltips-require-tether-http-github-h) --> 
+        <script src="js/bootstrap.min.js"></script>             <!-- Bootstrap js (v4-alpha.getbootstrap.com/) -->
+        <script src="js/hero-slider-main.js"></script>          <!-- Hero slider (https://codyhouse.co/gem/hero-slider/) -->
+        <script src="js/jquery.magnific-popup.min.js"></script> <!-- Magnific popup (http://dimsemenov.com/plugins/magnific-popup/) -->
+        
+        <script>
+
+                 function clickMe(){
+                      location.href="UPLOAD.html";
+                 }
+
+
+            function adjustHeightOfPage(pageNo) {
+               
+                // Get the page height
+                var totalPageHeight = 15 + $('.cd-slider-nav').height()
+                                        + $(".cd-hero-slider li:nth-of-type(" + pageNo + ") .js-tm-page-content").height() + 160
+                                        + $('.tm-footer').height();
+
+                // Adjust layout based on page height and window height
+                if(totalPageHeight > $(window).height()) 
+                {
+                    $('.cd-hero-slider').addClass('small-screen');
+                    $('.cd-hero-slider li:nth-of-type(' + pageNo + ')').css("min-height", totalPageHeight + "px");
+                }
+                else 
+                {
+                    $('.cd-hero-slider').removeClass('small-screen');
+                    $('.cd-hero-slider li:nth-of-type(' + pageNo + ')').css("min-height", "100%");
+                }
+
+            }
+
+            /*
+                Everything is loaded including images.
+            */
+            $(window).load(function(){
+
+                adjustHeightOfPage(1); // Adjust page height
+
+                /* Gallery pop up
+                -----------------------------------------*/
+                $('.tm-img-gallery').magnificPopup({
+                    delegate: 'a', // child items selector, by clicking on it popup will open
+                    type: 'image',
+                    gallery:{enabled:true}                
+                });
+
+                /* Collapse menu after click 
+                -----------------------------------------*/
+                $('#tmNavbar a').click(function(){
+                    $('#tmNavbar').collapse('hide');
+
+                    adjustHeightOfPage($(this).data("no")); // Adjust page height       
+                });
+
+                /* Browser resized 
+                -----------------------------------------*/
+                $( window ).resize(function() {
+                    var currentPageNo = $(".cd-hero-slider li.selected .js-tm-page-content").data("page-no");
+                    adjustHeightOfPage( currentPageNo );
+                });
+        
+                // Remove preloader
+                // https://ihatetomatoes.net/create-custom-preloading-screen/
+                $('body').addClass('loaded');
+                           
+            });
+
+        </script>             
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+==================================================>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+EXP.HTML
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>EXPLORE</title>
+<!--
+Flat Template
+http://www.templatemo.com/tm-491-flat
+-->
+    <!-- load stylesheets -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">    <!-- Google web font "Open Sans" -->    
+    <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">            <!-- Font awesome -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">                                  <!-- Bootstrap style -->
+    <link rel="stylesheet" href="css/hero-slider-style.css">                              <!-- Hero slider style (https://codyhouse.co/gem/hero-slider/) -->
+    <link rel="stylesheet" href="css/magnific-popup.css">                                 <!-- Magnific popup style (http://dimsemenov.com/plugins/magnific-popup/) -->
+    
+    <link rel="stylesheet" href="css/templatemo-style.css">                               <!-- Templatemo style -->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+    <body>
+                      
+        <!-- Content -->
+        <div class="cd-hero">
+
+            <!-- Navigation -->        
+            <div class="cd-slider-nav">
+                <nav class="navbar">
+
+                    <button class="navbar-toggler hidden-md-up" type="button" data-toggle="collapse" data-target="#tmNavbar">
+                        &#9776;
+                    </button>
+                    <div class="collapse navbar-toggleable-sm text-xs-center text-uppercase tm-navbar" id="tmNavbar">
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item active selected">
+                                <a id="nat1" class="nav-link" href="#0" onclick="dummy()" data-no="1">NATURE <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a id="nat2" class="nav-link" href="#0" data-no="2">SPORTS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#0" data-no="3">FOOD</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#0" data-no="4">ANIMALS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#0" data-no="5">AUTO-MOBILE</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div> 
+
+            <ul class="cd-hero-slider">  <!-- autoplay -->
+                 <!-- Page 1 -->
+                <li class="selected">
+                    
+                    <div class="cd-full-width">
+
+                        <div class="container-fluid js-tm-page-content tm-page-1" data-page-no="1">
+                            
+                            <div class="row tm-img-gallery">
+                                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                                    <a href="https://images.unsplash.com/photo-1543877087-ebf71fde2be1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80">
+                                        <img src="https://images.unsplash.com/photo-1543877087-ebf71fde2be1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="Image" class="img-fluid tm-img">
+                                    </a>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                                    <a href="https://images.unsplash.com/photo-1445510491599-c391e8046a68?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80">
+                                        <img src="https://images.unsplash.com/photo-1445510491599-c391e8046a68?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="Image" class="img-fluid tm-img">
+                                    </a>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                                    <a href="https://images.unsplash.com/photo-1525127752301-99b0b6379811?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80">
+                                        <img src="https://images.unsplash.com/photo-1525127752301-99b0b6379811?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="Image" class="img-fluid tm-img">
+                                    </a>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                                    <a href="https://images.unsplash.com/photo-1500614922032-b6dd337b1313?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80">
+                                        <img src="https://images.unsplash.com/photo-1500614922032-b6dd337b1313?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="Image" class="img-fluid tm-img">
+                                    </a>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                                    <a href="https://images.unsplash.com/photo-1448518340475-e3c680e9b4be?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80">
+                                        <img src="https://images.unsplash.com/photo-1448518340475-e3c680e9b4be?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80" alt="Image" class="img-fluid tm-img">
+                                    </a>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                                    <a href="https://images.unsplash.com/photo-1431057259500-78dd318a0a75?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80">
+                                        <img src="https://images.unsplash.com/photo-1431057259500-78dd318a0a75?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="Image" class="img-fluid tm-img">
+                                    </a>
+                                </div>  
+                                
+                                
+
+                            </div>
+
+                        </div>
+                                                    
+                    </div>
+                    
+                </li>
+
+    <!-- Page 3 -->
+                <li>
+                    
+                    <div class="cd-full-width">
+
+                        <div class="container-fluid js-tm-page-content" data-page-no="2">
+                            
+                            <div class="row tm-img-gallery">
+                                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                                    <a href="https://images.unsplash.com/photo-1552674605-db6ffd4facb5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80">
+                                        <img src="https://images.unsplash.com/photo-1552674605-db6ffd4facb5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="Image" class="img-fluid tm-img">
+                                    </a>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                                    <a href="https://images.unsplash.com/photo-1484482340112-e1e2682b4856?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=755&q=80">
+                                        <img src="https://images.unsplash.com/photo-1484482340112-e1e2682b4856?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=755&q=80" alt="Image" class="img-fluid tm-img">
+                                    </a>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                                    <a href="https://images.unsplash.com/photo-1587280501635-68a0e82cd5ff?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80">
+                                        <img src="https://images.unsplash.com/photo-1587280501635-68a0e82cd5ff?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="Image" class="img-fluid tm-img">
+                                    </a>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                                    <a href="https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=749&q=80">
+                                        <img src="https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=749&q=80" alt="Image" class="img-fluid tm-img">
+                                    </a>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                                    <a href="https://images.unsplash.com/photo-1600965962323-6362f726c3f8?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80">
+                                        <img src="https://images.unsplash.com/photo-1600965962323-6362f726c3f8?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80" alt="Image" class="img-fluid tm-img">
+                                    </a>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                                    <a href="https://images.unsplash.com/photo-1562077772-3bd90403f7f0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=889&q=80">
+                                        <img src="https://images.unsplash.com/photo-1562077772-3bd90403f7f0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=889&q=80" alt="Image" class="img-fluid tm-img">
+                                    </a>
+                                </div>                                
+                            </div>
+
+                        </div>
+                                                    
+                    </div>
+                    
+                </li>
+
+                
+                <!-- Page 3 -->
+                <li>
+                    
+                    <div class="cd-full-width">
+
+                        <div class="container-fluid js-tm-page-content" data-page-no="3">
+                            
+                            <div class="row tm-img-gallery">
+                                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                                    <a href="https://images.unsplash.com/photo-1498837167922-ddd27525d352?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80">
+                                        <img src="https://images.unsplash.com/photo-1498837167922-ddd27525d352?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="Image" class="img-fluid tm-img">
+                                    </a>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                                    <a href="https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80">
+                                        <img src="https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="Image" class="img-fluid tm-img">
+                                    </a>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                                    <a href="https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80">
+                                        <img src="https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="Image" class="img-fluid tm-img">
+                                    </a>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                                    <a href="https://images.unsplash.com/photo-1447078806655-40579c2520d6?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80">
+                                        <img src="https://images.unsplash.com/photo-1447078806655-40579c2520d6?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80" alt="Image" class="img-fluid tm-img">
+                                    </a>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                                    <a href="https://images.unsplash.com/photo-1497888329096-51c27beff665?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80">
+                                        <img src="https://images.unsplash.com/photo-1497888329096-51c27beff665?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80" alt="Image" class="img-fluid tm-img">
+                                    </a>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                                    <a href="https://images.unsplash.com/photo-1467453678174-768ec283a940?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=728&q=80">
+                                        <img src="https://images.unsplash.com/photo-1467453678174-768ec283a940?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=728&q=80" alt="Image" class="img-fluid tm-img">
+                                    </a>
+                                </div>                                
+                            </div>
+
+                        </div>
+                                                    
+                    </div>
+                    
+                </li>
+
+                 <!-- Page 4 -->
+                <li>
+                    
+                    <div class="cd-full-width">
+
+                        <div class="container-fluid js-tm-page-content" data-page-no="4">
+                            
+                            <div class="row tm-img-gallery">
+                                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                                    <a href="https://images.unsplash.com/photo-1437622368342-7a3d73a34c8f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80">
+                                        <img src="https://images.unsplash.com/photo-1437622368342-7a3d73a34c8f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Image" class="img-fluid tm-img">
+                                    </a>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                                    <a href="https://images.unsplash.com/photo-1456926631375-92c8ce872def?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80">
+                                        <img src="https://images.unsplash.com/photo-1456926631375-92c8ce872def?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="Image" class="img-fluid tm-img">
+                                    </a>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                                    <a href="https://images.unsplash.com/photo-1489084917528-a57e68a79a1e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80">
+                                        <img src="https://images.unsplash.com/photo-1489084917528-a57e68a79a1e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80 alt="Image" class="img-fluid tm-img">
+                                    </a>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                                    <a href="https://images.unsplash.com/photo-1506099914961-765be7a97019?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80">
+                                        <img src="https://images.unsplash.com/photo-1506099914961-765be7a97019?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="Image" class="img-fluid tm-img">
+                                    </a>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                                    <a href="https://images.unsplash.com/photo-1453805622064-de9796753c22?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80">
+                                        <img src="https://images.unsplash.com/photo-1453805622064-de9796753c22?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="Image" class="img-fluid tm-img">
+                                    </a>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                                    <a href="https://images.unsplash.com/photo-1485833077593-4278bba3f11f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80">
+                                        <img src="https://images.unsplash.com/photo-1485833077593-4278bba3f11f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="Image" class="img-fluid tm-img">
+                                    </a>
+                                </div>                                
+                            </div>
+
+                        </div>
+                                                    
+                    </div>
+                    
+                </li>
+
+                  <!-- Page 5 -->
+                <li>
+                    
+                    <div class="cd-full-width">
+
+                        <div class="container-fluid js-tm-page-content" data-page-no="5">
+                            
+                            <div class="row tm-img-gallery">
+                                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                                    <a href="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=847&q=80">
+                                        <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=847&q=80" alt="Image" class="img-fluid tm-img">
+                                    </a>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                                    <a href="https://images.unsplash.com/photo-1583121274602-3e2820c69888?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80">
+                                        <img src="https://images.unsplash.com/photo-1583121274602-3e2820c69888?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80" alt="Image" class="img-fluid tm-img">
+                                    </a>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                                    <a href="https://images.unsplash.com/photo-1503376780353-7e6692767b70?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80">
+                                        <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="Image" class="img-fluid tm-img">
+                                    </a>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                                    <a href="https://images.unsplash.com/photo-1503376780353-7e6692767b70?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80">
+                                        <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="Image" class="img-fluid tm-img">
+                                    </a>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                                    <a href="https://images.unsplash.com/photo-1526726538690-5cbf956ae2fd?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80">
+                                        <img src="https://images.unsplash.com/photo-1526726538690-5cbf956ae2fd?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="Image" class="img-fluid tm-img">
+                                    </a>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                                    <a href="https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=667&q=80">
+                                        <img src="https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=667&q=80" alt="Image" class="img-fluid tm-img">
+                                    </a>
+                                </div>                                
+                            </div>
+
+                        </div>
+                                                    
+                    </div>
+                    
+                </li>
+
+
+                <footer class="tm-footer">
+            
+            
+                    
+                    <p class="tm-copyright-text"><strong>CLICK IMAGE TO ENLARGE</p></strong></p>
+                   
+                </footer>
+
+            </ul> <!-- .cd-hero-slider -->
+            
+            <footer class="tm-footer">
+            
+                <div class="tm-social-icons-container">
+                    <a href="#" class="tm-social-link"><i class="fa fa-facebook"></i></a>
+                    <a href="#" class="tm-social-link"><i class="fa fa-google-plus"></i></a>
+                    <a href="#" class="tm-social-link"><i class="fa fa-twitter"></i></a>
+                    <a href="#" class="tm-social-link"><i class="fa fa-behance"></i></a>
+                    <a href="#" class="tm-social-link"><i class="fa fa-linkedin"></i></a>
+                    <a href="#" class="tm-social-link"><i class="fa fa-linkedin"></i></a>
+                </div>
+                
+                <p class="tm-copyright-text">Copyright &copy; CYBAGE SOFTWARE PVT. LTD. INDIA: <a href="https://plus.google.com/+templatemo" target="_blank"></a></p>
+
+            </footer>
+                    
+        </div> <!-- .cd-hero -->
+        
+
+        <!-- Preloader, https://ihatetomatoes.net/create-custom-preloading-screen/ -->
+        <div id="loader-wrapper">
+            
+            <div id="loader"></div>
+            <div class="loader-section section-left"></div>
+            <div class="loader-section section-right"></div>
+
+        </div>
+        
+        <!-- load JS files -->
+        <script src="js/jquery-1.11.3.min.js"></script>         <!-- jQuery (https://jquery.com/download/) -->
+        <script src="https://www.atlasestateagents.co.uk/javascript/tether.min.js"></script> <!-- Tether for Bootstrap (http://stackoverflow.com/questions/34567939/how-to-fix-the-error-error-bootstrap-tooltips-require-tether-http-github-h) --> 
+        <script src="js/bootstrap.min.js"></script>             <!-- Bootstrap js (v4-alpha.getbootstrap.com/) -->
+                                                              <!-- Hero slider (https://codyhouse.co/gem/hero-slider/) -->
+        <script src="js/jquery.magnific-popup.min.js"></script> <!-- Magnific popup (http://dimsemenov.com/plugins/magnific-popup/) -->
+        
+        <script>
+
+
+                 function dummy(){
+                     location.href="";
+                 }
+            function adjustHeightOfPage(pageNo) {
+               
+                // Get the page height
+                var totalPageHeight = 15 + $('.cd-slider-nav').height()
+                                        + $(".cd-hero-slider li:nth-of-type(" + pageNo + ") .js-tm-page-content").height() + 160
+                                        + $('.tm-footer').height();
+
+                // Adjust layout based on page height and window height
+                if(totalPageHeight > $(window).height()) 
+                {
+                    $('.cd-hero-slider').addClass('small-screen');
+                    $('.cd-hero-slider li:nth-of-type(' + pageNo + ')').css("min-height", totalPageHeight + "px");
+                }
+                else 
+                {
+                    $('.cd-hero-slider').removeClass('small-screen');
+                    $('.cd-hero-slider li:nth-of-type(' + pageNo + ')').css("min-height", "100%");
+                }
+
+            }
+
+            /*
+                Everything is loaded including images.
+            */
+            $(window).load(function(){
+
+                adjustHeightOfPage(1); // Adjust page height
+
+                /* Gallery pop up
+                -----------------------------------------*/
+                $('.tm-img-gallery').magnificPopup({
+                    delegate: 'a', // child items selector, by clicking on it popup will open
+                    type: 'image',
+                    gallery:{enabled:true}                
+                });
+
+                /* Collapse menu after click 
+                -----------------------------------------*/
+                // $('#tmNavbar a').click(function(){
+                //     $('#tmNavbar').collapse('hide');
+
+                //     adjustHeightOfPage($(this).data("no")); // Adjust page height       
+                // });
+
+                /* Browser resized 
+                -----------------------------------------*/
+                $( window ).resize(function() {
+                    var currentPageNo = $(".cd-hero-slider li.selected .js-tm-page-content").data("page-no");
+                    adjustHeightOfPage( currentPageNo );
+                });
+        
+                // Remove preloader
+                // https://ihatetomatoes.net/create-custom-preloading-screen/
+                $('body').addClass('loaded');
+                           
+            });
+
+        </script>             
+
+</body>
+</html>
+
+
+
+
+
+
+
+===================================================================>>>>>>>>>>>>>>>>>>>
+
+UPLOAD.HTML
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">    <!-- Google web font "Open Sans" -->    
+    <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">            <!-- Font awesome -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">                                  <!-- Bootstrap style -->
+    <link rel="stylesheet" href="css/hero-slider-style.css">                              <!-- Hero slider style (https://codyhouse.co/gem/hero-slider/) -->
+    <link rel="stylesheet" href="css/magnific-popup.css">                                 <!-- Magnific popup style (http://dimsemenov.com/plugins/magnific-popup/) -->
+    
+    <link rel="stylesheet" href="css/templatemo-style.css">                               <!-- Templatemo style -->
+
+    <style>
+        @import url(https://fonts.googleapis.com/css?family=PT+Sans);
+
+body {
+  font-family: PT Sans;
+}
+
+#list img {
+  max-width: 300px;
+}
+
+#deleteImgs {
+  display: none;
+}
+    </style>
+</head>
+<body>
+    <h1 class="tm-site-name" style="text-align: center;font-size: 50px;">UPLOAD GALLERY</h1>
+    <br>
+    <br>    
+<input type="file" id="files">
+
+
+<p id="state">No images uploaded.</p>
+<div id="list">
+</div>
+
+<a href="#" id="deleteImgs">Delete Images</a>
+<script>
+    var imagesObject = [];
+
+function handleFileSelect(evt) {
+    var files = evt.target.files; // FileList object
+
+    // Loop through the FileList and render image files as thumbnails.
+    for (var i = 0, f; f = files[i]; i++) {
+
+      // Only process image files.
+      if (!f.type.match('image.*')) {
+        continue;
+      }
+
+      var reader = new FileReader();
+
+      // Closure to capture the file information.
+      reader.onload = function(e) {
+          displayImgData(e.target.result)
+          addImage(e.target.result);
+      };
+
+      reader.readAsDataURL(f);
+    }
+}
+
+function loadFromLocalStorage(){
+  var images = JSON.parse(localStorage.getItem("images"))
+
+  if(images && images.length > 0){
+    imagesObject = images;
+    
+    displayNumberOfImgs();
+    images.forEach(displayImgData);
+  }
+}
+
+function addImage(imgData){
+  imagesObject.push(imgData);
+  displayNumberOfImgs();
+  localStorage.setItem("images", JSON.stringify(imagesObject));
+}
+
+function displayImgData(imgData){
+  var span = document.createElement('span');
+  span.innerHTML = '<div class="cd-full-width"><div class="container-fluid js-tm-page-content" data-page-no="3"><div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4"><img alt="Image" class="img-fluid tm-img" src="' + imgData + '"/></div></div></div>';
+  document.getElementById('list').insertBefore(span, null);
+}
+
+function displayNumberOfImgs(){
+  if(imagesObject.length > 0){
+
+    document.getElementById("state").innerHTML = imagesObject.length + " image" + ((imagesObject.length > 1) ? "s" : "") + " stored in your browser";
+    
+    document.getElementById("deleteImgs").style.display = "inline";
+    
+  } else {
+    document.getElementById("state").innerHTML = "No images uploaded.";
+    document.getElementById("deleteImgs").style.display = "none";
+  }
+  
+  
+}
+
+function deleteImages(){
+  imagesObject = [];
+  localStorage.removeItem("images");
+  displayNumberOfImgs()
+  document.getElementById('list').innerHTML = "";
+}
+
+document.getElementById('files').addEventListener('change', handleFileSelect, false);
+document.getElementById('deleteImgs').addEventListener("click", deleteImages);
+loadFromLocalStorage();
+</script>
+    
+</body>
+</html>
+
+
